@@ -4,6 +4,9 @@ package Basic;
 
 public class StaticNonStatic{
     static{
+        System.out.println("This is the 2nd Static-Block");
+    }
+    static{
         
         System.out.println("This is a Static-Block");
     }

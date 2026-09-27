@@ -21,8 +21,14 @@ class TypeInference
         int[] array1 = {10,20,30,40};
         
         var arr = new int[6];
-        
+        //so the below is the valid way to 
+		// declare and intialize array eith the
+		// values
+		
         var arr1 = new int[]{10,20,30,40};
+		// here if we miss the new int [] 
+		// java throws error like 
+		//specufy the type of data 
 	}
 
 }

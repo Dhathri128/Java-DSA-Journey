@@ -29,3 +29,8 @@ class Hybrid{
 	}
 	
 }
+
+//This is a simple example of hybrid inheritance in Java.
+//From a base class, two derived classes are created.
+//if one sub class object is created the constructor of the base class is called and then the constructor of the sub class is called
+//and same for the other sub class object creation also the constructor of the base class is called and then the constructor of the sub class is called

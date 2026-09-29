@@ -21,7 +21,7 @@ class Cat extends Animal{
     }
 }
 
-class Hybrid{
+class Heirarchical{
 
 	public static void main (String[] args) {
 	    Dog d = new Dog();

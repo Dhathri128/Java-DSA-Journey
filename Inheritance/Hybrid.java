@@ -48,3 +48,14 @@ public class Hybrid {
 	}
     
 }
+
+/*AND THE OUTPUT IS :
+This is Vehicle class constructor
+This is Car calss constructor
+This is a Vehicle
+This is a Car
+This is Vehicle class constructor
+This is a Vehicle
+This is a Bus
+Fare Information present in this
+*/

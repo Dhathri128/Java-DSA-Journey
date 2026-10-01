@@ -22,3 +22,9 @@ public class Apple implements Laptop {
     }
     
 }
+
+
+/* 
+Apple is the class that implements the Laptop interface and it has implemented body for all the methods (abstarct methods) declared in the 
+interface Laptop and implemented another method capture() regardless of the interface Laptop
+ */

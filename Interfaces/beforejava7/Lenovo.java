@@ -18,3 +18,9 @@ public class Lenovo implements Laptop {
     }
     
 }
+
+
+/* 
+Lenovo is the class that implements the Laptop interface and it has implemented body for all the methods (abstarct methods) declared in the 
+interface Laptop
+ */

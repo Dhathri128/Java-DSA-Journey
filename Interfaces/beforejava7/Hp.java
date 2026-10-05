@@ -2,7 +2,7 @@ package Interfaces.beforejava7;
 
 public class Hp implements Laptop {
     // public void copy(); This method requires a body instead of a semicolon as this abstarct needs implementation
-        //System.out.println("HP copy code");   evwn i comment it and called method from the amin class User it is not printiing 
+        //System.out.println("HP copy code");   even i comment it and called method from the main class User it is not printiing 
                                                //anything or not throwing any error  (since the method is there with { } as empty)
                                                                                       //if is not there it may thow error 
     

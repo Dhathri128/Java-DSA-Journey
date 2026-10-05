@@ -5,7 +5,7 @@ public void copy();
 
 public void paste();
 
-public void cut();
+public void cut(); 
 
 public void Keyboard();
     
@@ -20,6 +20,7 @@ All the classes that imaplements the interface must provide implementatin fro al
    else it will show errro like ""The type Hp must implement the inherited abstract method Laptop.copy()"""
 Abstarct method is the method that is present in the interface with no implementation of body only the method declaration is there 
     like public void copy(); and public void paste();
+   Defined and unimplemented methods are called as Abstract methods   
 The implemented methods can also have or include extra methods rather than the abstract methods 
    like we have print() method in hp and capture() method in Apple()
 

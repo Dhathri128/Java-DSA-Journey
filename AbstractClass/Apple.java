@@ -11,7 +11,7 @@ public class Apple extends SampleAC {
     }
 
     public void capture(){
-        System.out.println();
+        System.out.println("This is capture code");
     }
     
 }

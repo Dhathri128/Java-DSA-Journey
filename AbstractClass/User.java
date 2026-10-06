@@ -21,3 +21,6 @@ This is capture code
 This is copy code
 This is paste code
 */
+
+
+// method dfintion --- method implementation 

@@ -31,3 +31,7 @@ public class Main {
 
 
 // to compile --- javac MethodOverriding/OverridingInheritance/Main.java
+/*
+see here we decalered sound() method in parent class and providing different imlementation to that method in the child classes 
+which are extending the parent class -- this is called overriding we are not changing the method signature just providing the own implentation
+*/

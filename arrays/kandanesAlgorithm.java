@@ -1,4 +1,4 @@
-
+package arrays;
 
 public class kandanesAlgorithm {
     public static void main(String[] args) {

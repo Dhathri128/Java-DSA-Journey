@@ -13,7 +13,7 @@ public class TwoSum {
         for(int i =0;i<arr.length;i++){
             int required = target - arr[i];
             if(map.containsKey(required)){
-                return new int[]{map.het(required),i};
+                return new int[]{map.get(required)+ "," + i};
             }
 
             map.put(arr[i],i);

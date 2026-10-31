@@ -1,44 +1,52 @@
+
 package Stack;
 
-public class Stack {
+public class MyStack {
 
     int[] arr;
     int capacity;
     int top;
 
-    Stack(int size){
+    MyStack(int size) {
         capacity = size;
         arr = new int[size];
-        int top = -1;
+        top = -1;
     }
 
-    void push(int value){
-        if(top == capacity){
+    void push(int value) {
+        if (top == capacity - 1) {
             System.out.println("Stack Overflow");
             return;
         }
-        arr[++top];
-    }
-    
 
-    void pop(){
-        if(top == -1){
+        arr[++top] = value;
+    }
+
+    int pop() {
+        if (top == -1) {
             System.out.println("Stack Underflow");
-            return;
+            return -1;
         }
+
         return arr[top--];
     }
 
-    void peek(){
-        if(top == -1){
+    int peek() {
+        if (top == -1) {
             System.out.println("Stack is Empty");
             return -1;
         }
+
         return arr[top];
     }
 
-    void display(){
-        for(int i = top;i>=0;i--){
+    void display() {
+        if (top == -1) {
+            System.out.println("Stack is Empty");
+            return;
+        }
+
+        for (int i = top; i >= 0; i--) {
             System.out.println(arr[i]);
         }
     }
